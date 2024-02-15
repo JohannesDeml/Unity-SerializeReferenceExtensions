@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 353d674752e348e5ae12b29807d9539b, type: 3}
+  m_Name: Animals_Carnivores
+  m_EditorClassIdentifier: 
+  AnimalsList:
+  - rid: 6191851704966447107
+  references:
+    version: 2
+    RefIds:
+    - rid: 6191851704966447107
+      type: {class: Tiger, ns: ScriptableObjectExample, asm: Assembly-CSharp}
+      data:
+        Prey:
+        - rid: 6191851704966447108
+        - rid: 6191851704966447109
+    - rid: 6191851704966447108
+      type: {class: Gazelle, ns: ScriptableObjectExample, asm: Assembly-CSharp}
+      data:
+        Food: {fileID: 11400000, guid: 5fd3462b3538c4d91af1f6b6c27eec61, type: 2}
+        FurColors:
+        - {fileID: 11400000, guid: 40f4fe656483746ec86301e0f930d29a, type: 2}
+    - rid: 6191851704966447109
+      type: {class: Rabbit, ns: ScriptableObjectExample, asm: Assembly-CSharp}
+      data:
+        Food: {fileID: 11400000, guid: bb37ca3e1154746f387b1bca4fc00fe0, type: 2}
+        FurColors:
+        - {fileID: 11400000, guid: 9a4bcf069e8cd429cbefaa25b6895402, type: 2}
